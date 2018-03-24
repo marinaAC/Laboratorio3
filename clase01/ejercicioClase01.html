@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titulo de la pag</title>
+        <script type="text/javascript">
+            var saludo = "Hoola";
+            alert(saludo);
+            function $(paramId){
+                var returnObj = document.getElementById(paramId).value;
+                return returnObj;
+            }
+            function saludar(){
+                var nombreUs = $("txtUser");
+                var passUs = $("pass");
+                // var nombreUs = document.getElementById("txtUser").value;
+                // var passUs = document.getElementById("pass").value;
+                if(nombreUs==""||passUs=="")
+                {
+                    alert("Debe cargar sus datos");
+                }else{
+                    alert(nombreUs+passUs);
+                }
+                
+            }
+         
+        </script>
+    </head>
+    <body>
+        <!-- forma a la cual le voy a enviar la formacion al back, o algun servidor
+            Maneras: 
+                *GET: viaja por la url
+                *POST: viaja por otra manera, que no va por la url (informacion sensible)
+        -->
+        <form action="" method="get"> 
+        <label for="txtUser">USUARIO:</label><br>
+        <!-- Size es la cantidad de caracteres que puede tener ese input, el maxlengt se diferencia que es la cantidad que se puede ingresar-->
+        <input type="text" name="txt" id="txtUser" placeholder="INGRESE SU TEXTO" size="35" maxlength="10"/><br>
+        
+        <label for="pass">CONTRASEÑA:</label><br>
+        <input type="password" size="35" name="textPass" id="pass" ><br>
+        <input type="checkbox" name="checkcheckchek" checked>Recordar usuario y pass</input><br>
+        <input type="submit">
+        <input type="reset" value="Limpiar">
+        <input type="button" value="click Button" onclick="saludar()" >
+        
+        </form>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+CLASE 01:
+
+-Introduccion html: elementos, tags
+-Introduccion JavaScripts: como escuchar elementos del html. Conocomiento de metodos pots y gets (por arriba).
+
+EjResolucion:
+
+function saludar(){
+	var inputUsuario = document.getElementById("txtUser");
+	var valorUsuario = inputUsuario.value;
+	var tipoInputUsuario = inputUsuario.type;
+	var sizeInput = inputUsuario.size;
+	
+	alert(valorUsuario);
+	alert(valorUsuario);
+	alert(valorUsuario);
+}
