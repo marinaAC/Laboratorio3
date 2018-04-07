@@ -1,0 +1,21 @@
+th,td,tr.tabla  {
+    border: 1px solid orange;
+}
+
+.btnSumar{
+    background-color: royalblue;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: none;
+}
+
+.btnSumaryG{
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: none; 
+}
