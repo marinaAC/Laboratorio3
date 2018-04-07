@@ -1,0 +1,16 @@
+Clase 2 - Apuntes
+
+Laboratorio III
+
+Temas:
+-Html5 (Algunos tags)
+-Eventos en js
+
+
+TAGS (dentro del body):
+
+-->Header cabecera
+-->nav menu
+-->section(porciones de codigo que van dentro de la pagina), dentros articulos, aside
+-->footer
+
