@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./js/funciones.js"></script>
+    <title>Clase 2</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <!-- <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" id="elemento">Sarasa</a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <section>
+        <fieldset>
+            <legend>Sumar valores</legend>        
+            <article>
+                <p>Se deben ingresar dos numeros y hacer click en el boton sumar para ver el resultado</p>
+                <input type="number" name="numero1" id="numero1">
+                +
+                <input type="number" name="numero2" id="numero2">
+                <input type="button" id="btnSumar" value="Sumar" onclick="Sumar()">
+                <input type="button" id="btnSumarGuardar" value="Sumar y Guardar" onclick="GuardarHistotial()">
+            </article>
+            <article>
+                <h3>Resultado: </h3>
+                <input type="number" disabled="disabled" id="inResultado" >
+            </article>
+            <article>
+                <h3>Historial de resultados</h3>
+                <table>
+                    <thead>
+                       <th>Numero 1</th>
+                       <th>Numero 2</th>
+                       <th>Numero 3</th>
+                    </thead>
+                    <tbody id="ancla">
+                    </tbody>
+                </table>
+            </article>
+        </fieldset>
+    
+    </section>
+    
+</body>
+</html>
