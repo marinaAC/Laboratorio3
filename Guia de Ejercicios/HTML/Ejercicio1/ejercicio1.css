@@ -1,0 +1,33 @@
+/* HOJA DE ESTILOS EJERCICIO 1 */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.content-principal {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.secundaria {
+  width: 50%;
+  float: left;
+}
+
+.tercera {
+  width: 50%;
+  float: right;
+}
+
+.cuarta {
+  clear: both;
+}
+
+/*
+.content-noticias {
+  width: 50%;
+}
+*/
