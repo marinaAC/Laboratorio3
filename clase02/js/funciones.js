@@ -19,13 +19,13 @@ function GuardarHistotial(){
     var result = Sumar();
     var num1 = parseFloat(document.getElementById("numero1").value);
     var num2 = parseFloat(document.getElementById("numero2").value);
-    // var ancla = document.getElementById("ancla");
-    // ancla.innerHTML+="<tr><td>"+num1+"</td><td>"+num2+"</td><td>"+result+"</td><tr>";
+    var ancla = document.getElementById("ancla");
+    ancla.innerHTML+="<tr><td>"+num1+"</td><td>"+num2+"</td><td>"+result+"</td><tr>";
 
 
-    //Ejemplo del profesor
-    var fila = "<tr><td>"+num1+"</td><td>"+num2+"</td><td>"+result+"</td><tr>";
-    var cuerpo= document.getElementById("ancla");
-    var cuerpoViejo = cuerpo.innerHTML;
-    cuerpo = cuerpoViejo+fila;
+    // //Ejemplo del profesor
+    // var fila = "<tr><td>"+num1+"</td><td>"+num2+"</td><td>"+result+"</td><tr>";
+    // var cuerpo= document.getElementById("ancla");
+    // var cuerpoViejo = cuerpo.innerHTML;
+    // cuerpo = cuerpoViejo+fila;
 }

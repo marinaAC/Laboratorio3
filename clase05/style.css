@@ -1,0 +1,14 @@
+/*Hojas de estilo */
+
+.log-central{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.img-content,.form-button{
+    text-align: center;
+}
+
+.form-usr-place,.form-pass-place{
+    margin-bottom: 5px;
+}

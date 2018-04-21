@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var numeroString = "2";
+        var numeroEntero = 2;
+        if(numeroEntero == numeroString)
+        {
+            //El igual igual compara el mismo valor. 
+            console.log("Son iguales");
+        }else{
+            //El triple igual compara valor y tipo
+            console.log("No lo son");
+        }
+
+        //Declarar funciones en javaScript 
+
+        function hacerAlgo()
+        {
+            console.log("Hago algo");
+        }
+
+        hacerAlgo();
+
+        //Utilizarla como variable
+
+        var callBack = function hacerAlgo(){
+            console.log("Se puede pasar por parametro, para poder invocarla");
+        }
+
+        function Otrafuncion(){
+            callBack();
+        }
+
+        function sumar(num1,num2,llamada){
+            console.log(num1+num2);
+            llamada();
+        }
+
+        sumar(1,2,callBack);
+
+        //Parte dos
+
+        
+        var callBack2 = function hacerAlgo(retorno){
+            console.log("Otra forma de usarlo");
+            console.log(retorno);
+        }
+
+        //recibo dos parametros y decido que hacer cuando lo recibo
+        function sumar2(num1,num2,llamada){
+            llamada(num1+num2);
+        }
+
+        //Utilizacion para produccion asincronica
+        sumar2(1,2,callBack2);
+
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
