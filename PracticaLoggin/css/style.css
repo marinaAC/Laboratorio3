@@ -1,0 +1,27 @@
+/*Hojas de estilo */
+
+.log-central{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.img-content,.form-button{
+    text-align: center;
+}
+
+.form-usr-place,.form-pass-place{
+    margin-bottom: 5px;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.mesg-error{
+    color:red;
+}
+
+.mesg-error p{
+    font-size: 11px;
+    margin: 0;
+}

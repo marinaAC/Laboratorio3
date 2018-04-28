@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABM-JSON</title>
+    <script src="js/metodos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="body-container">
+    <section class="form-datos-position">
+        <div class="form-datos">
+            <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+            <input type="text" placeholder="Apellido" name="apellido" id="apellido">
+            <input type="text" placeholder="Telefono" name="telefono" id="telefono">
+            <input type="date" name="fecha" id="fecha" placeholder="dd/mm/aaaa">
+            <button onclick="addPerson()">Guardar</button>
+        </div>
+    </section>
+    <section class="table-dinamic-position">
+        <table class="table-dinamic-style">
+            <thead class="table-dinamic-head">
+                    <th>NOMBRE</th>
+                    <th>APELLIDO</th>
+                    <th>TELEFONO</th>
+                    <th>FECHA</th>
+                    <th>ACCION</th>
+            </thead>
+            <tbody id= "body-tabla" class="table-dinamic-body">
+            </tbody>
+        </table>
+    </section>
+</div>
+</body>
+</html>

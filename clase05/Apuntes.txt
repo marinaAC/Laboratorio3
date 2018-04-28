@@ -1,7 +1,2 @@
-Notas de la clase:
-
-JavaScript:
-    <script>
-    var nombre = "2";
-    nombre = 2;
-    </script>
+Json-->
+Se genera el objeto y se accede despues del punto. como en c#

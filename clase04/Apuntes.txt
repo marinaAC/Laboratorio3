@@ -1,0 +1,7 @@
+Notas de la clase:
+
+JavaScript:
+    <script>
+    var nombre = "2";
+    nombre = 2;
+    </script>
