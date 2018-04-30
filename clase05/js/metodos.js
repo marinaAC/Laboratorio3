@@ -15,15 +15,20 @@ var callBack = function(){
                 console.log("Llego al metodo post");
             }else{
                 if(validarLocalStorage(localGet)){
+                    console.log("Ingreso a setear el local");
                     localStorage.setItem("personas",JSON.stringify(rta));
+                    ObtenerPersonas(rta);
+                }else{
+                    var auxiliar = JSON.parse(localGet);
+                    ObtenerPersonas(auxiliar);
                 }
-                ObtenerPersonas(rta);
             }
         }else{
             alert("Hubo un problema")
         }
     }    
 }
+
 
 function validarLocalStorage(lista){
     var retorno = false;
@@ -70,13 +75,11 @@ function addPerson(){
 
 
 function deletePerson(index){
-    
-    for (var i = 0; i < localGet.length; i++) {
+    var element = JSON.parse(localGet);
+    for (var i = 0; i < element.length; i++) {
         if(i==index){
-            console.log("ver el index", element);
-            var element = localGet[index];
-            localGet.splice(index,element);
-            localStorage.setItem("personas",localGet);
+            element.splice(index,element[index]);
+            localStorage.setItem("personas",JSON.stringify(element));
             break;
         }
     }
