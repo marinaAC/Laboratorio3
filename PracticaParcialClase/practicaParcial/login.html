@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/metodos.js"></script>
+    <title>Loging</title>
+</head>
+
+<body>
+    <section class="log-central">
+        <div class="cargando" hidden="hidden" id="load">
+            <img src="css/Spinner-1s-200px.gif" alt="" srcset="">
+        </div>
+        <div class="form-content" id="form">
+            <div class="img-content">
+                <div class="imag-fix">
+                    <p>Imagen</p>
+                </div>
+            </div>
+            <div class="form-usr-place">
+                <label>Usuario</label>
+                <input type="text" id="email" name="email" placeholder="email">
+                <div id="mError-us" class="mesg-error" hidden="hidden">
+                    <p>Los datos son incorrectos</p>
+                </div>
+            </div>
+            <div class="form-pass-place">
+                <label>Contraseña</label>
+                <input type="password" id="pass" name="pass" placeholder="contraseña">
+                <div id="mError-ps" class="mesg-error" hidden="hidden">
+                    <p>Los datos son incorrectos</p>
+                </div>
+            </div>
+            <div class="form-button">
+                <button onclick="logPerson()">log</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
