@@ -1,17 +1,40 @@
-.body-container{
-    margin: 0 auto;
-    max-width: 800px; 
+.body-container {
+  margin: 0 auto;
+  max-width: 800px;
 }
 
-.table-dinamic-position{
-    margin: 0 auto;
-    width: 500px;
+.table-dinamic-position {
+  margin: 0 auto;
+  width: 500px;
 }
 
-.table-dinamic-head{
-    background-color: goldenrod;
+.table-dinamic-head {
+  padding: 18px 5px;
+}
+th {
+  /*font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;*/
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.form-datos-position{
-    margin-bottom: 15px;
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-dinamic-head {
+  border-collapse: collapse;
+}
+
+.form-datos-position {
+  margin-bottom: 15px;
 }
