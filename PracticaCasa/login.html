@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/metodos.js"></script>
+</head>
+
+<body>
+    <section class="log-central">
+        <div class="cargando" id="load" hidden="hidden">
+            <img src="image/Spinner-1s-200px.gif" alt="" srcset="">
+        </div>
+        <div class="form-content" id="form">
+            <div class="img-content">
+                <div class="imag-fix">
+                    <p>Imagen</p>
+                </div>
+            </div>
+            <div class="form-usr-place">
+                <input type="text" id="usuario" class="usuario" placeholder="Usuario">
+                <div id="mError-us" class="mesg-error" hidden="hidden">
+                    <p>Los datos son incorrectos</p>
+                </div>
+            </div>
+            <div class="form-pass-place">
+                <input type="password" id="pass" class="pass" placeholder="Password">
+                <div id="mError-ps" class="mesg-error" hidden="hidden">
+                    <p>Los datos son incorrectos</p>
+                </div>
+            </div>
+            <div class="form-button">
+                <button class="button" onclick="logPerson()">Ingresar</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

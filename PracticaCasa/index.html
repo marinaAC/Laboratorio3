@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pagina principal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/metodos.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div>
+            <ul>
+                <li>
+                    <a class="active" href="#">Alta</a>
+                </li>
+                <li>
+                    <a href="#">Modificacion</a>
+                </li>
+                <li>
+                    <a href="#">Baja</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="table-dinamic-position">
+        <table id="tabla" class="table-dinamic-style">
+            <thead class="table-dinamic-head">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Fecha</th>
+                    <th>Telefono</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-cuerpo" lass="table-dinamic-body">
+
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <div class="form-addperson">
+            <div class="form-content">
+                <div class="form-nom">
+                    <input type="text" id="nombre" placeholder="nombre">
+                </div>
+                <div class="form-nom">
+                    <input type="text" id="apellido" placeholder="apellido">
+                </div>
+                <div class="form-nom">
+                    <input type="text" id="fecha" placeholder="fecha">
+                </div>
+                <div class="form-nom">
+                    <input type="text" id="telefono" placeholder="telefono">
+                </div>
+                <div class="form-button">
+                    <button>Guardar</button>
+                </div>
+            </div>
+    </section>
+
+</body>
+
+</html>
