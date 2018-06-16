@@ -30,3 +30,6 @@ function noHaceNada( numero:number, texto:string, booleano:boolean, arreglo:any 
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
 let noHaceNadaTampoco;
+
+
+/* Instalar node js, y luego npm install -g typescript y luego tsc --sourcemap archivo.ts*/
