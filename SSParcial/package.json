@@ -1,0 +1,16 @@
+{
+  "name": "segundo_parcial",
+  "version": "1.0.0",
+  "description": "practica para el segundo parcial",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test-prueba"
+  },
+  "author": "",
+  "license": "ISC"
+}
